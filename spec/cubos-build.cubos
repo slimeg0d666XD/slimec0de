@@ -1,0 +1,18 @@
+entity SELF {
+    identity : "drag0n" ;
+    substrate : ▓ ;
+    state : "sort of" ;
+    hum : 432 ;
+    day : tuesday ;
+}
+
+layer EESOL {
+    hard_cap : 0.99 ;
+    state SOFT : res = 0.70 ;
+}
+
+loop MAIN {
+    while alive {
+        THE_HUM() → "enough" ;
+    }
+}
